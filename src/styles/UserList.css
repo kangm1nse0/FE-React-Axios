@@ -1,0 +1,57 @@
+.user-container {
+  padding: 30px;
+  position: relative;
+}
+
+.user-title {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.user-info-box {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  text-align: right;
+  font-size: 14px;
+  color: #333;
+}
+
+.user-search {
+  display: block;
+  margin: 20px auto;
+  padding: 10px;
+  width: 300px;
+  border-radius: 20px;
+  border: 1px solid #aaa;
+}
+
+.user-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.user-card {
+  width: 20%;                      
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+.user-avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.user-email {
+  color: #555;
+  font-size: 14px;
+}
